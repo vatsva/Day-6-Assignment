@@ -1,0 +1,47 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+.container{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   background-image: url(https://cdn.wallpapersafari.com/87/89/S5mPzr.jpg); 
+    
+    
+}
+ 
+.padd{
+    padding: 20px;
+}
+.header{
+    height: 50px;
+    width:100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 100%;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    height: 300px;
+    width: 18%;
+    background-image: url(https://www.kindpng.com/picc/m/41-414032_shattered-avengers-logo-hd-png-download.png);
+    margin-top: 20px;
+    background-size: cover;
+}
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-image:url(https://www.kindpng.com/picc/m/41-414032_shattered-avengers-logo-hd-png-download.png);
+    background-size: cover;
+}
+.opened{
+    display: none;
+}
